@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+
+import tkinter as tk
+
+
+# root setup
+root = tk.Tk()
+root.title('Window')
+root.attributes("-fullscreen", True)
+root.attributes('-topmost', True)
+root.state('zoomed')
+root.configure(bg="#eee")
+root.bind('<Escape>', lambda _: root.destroy())
+
+# text area
+text_area = tk.Text(
+    root,
+    font = ("Georgia", 30),
+    highlightthickness = 0,
+    borderwidth=0,
+    highlightbackground = '#eee',
+    border=0,
+    highlightcolor ="#eee",
+    background = '#eee',
+    insertbackground="#aaa",
+    insertwidth=10,
+    fg = "#222"
+)
+text_area.pack(padx=400, pady=100, expand=True)
+text_area.focus_set()
+
+
+root.mainloop()
