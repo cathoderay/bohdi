@@ -1,0 +1,2 @@
+# bohdi
+Minimalist text editor
