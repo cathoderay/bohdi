@@ -2,8 +2,6 @@
 
 import tkinter as tk
 
-
-# root setup
 root = tk.Tk()
 root.title('Window')
 root.attributes("-fullscreen", True)
@@ -12,7 +10,6 @@ root.state('zoomed')
 root.configure(bg="#eee")
 root.bind('<Escape>', lambda _: root.destroy())
 
-# text area
 text_area = tk.Text(
     root,
     font = ("Georgia", 30),
