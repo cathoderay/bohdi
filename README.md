@@ -20,8 +20,8 @@ Unique features
 
 2. there's no option to save the work
     This helps us practice detachment.
-    If you need to save your work, it's probably because you want to
-    revisit it in the future. This means you're not fully in the
+    If we need to save the work, it's probably because we want to
+    revisit it in the future. This means we're not fully in the
     present moment.
     Buddhism teaches that attachment is a primary cause
     of suffering (dukkha). By releasing attachments, one can reduce
